@@ -13,7 +13,7 @@ include::_artifacts/document-attributes-global.adoc[]
 :compat-mode:
 :context: model-serving
 
-= Model serving in {prodname-long}
+= Setting up model serving
 
-:context: about-model-serving
-include::modules/about-model-serving.adoc[leveloffset=+1]
+:context: serving-small-and-medium-models
+include::assemblies/serving-small-and-medium-sized-models.adoc[leveloffset=+1]

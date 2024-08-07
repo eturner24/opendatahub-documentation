@@ -1,7 +1,7 @@
 ---
 layout: docs
 title: Serving models
-permalink: /docs/serving-models
+permalink: /docs/serving-large-models
 custom_css: asciidoc.css
 ---
 
@@ -13,7 +13,7 @@ include::_artifacts/document-attributes-global.adoc[]
 :compat-mode:
 :context: model-serving
 
-= Model serving in {prodname-long}
+= Serving large models
 
-:context: about-model-serving
-include::modules/about-model-serving.adoc[leveloffset=+1]
+:context: serving-large-models
+include::assemblies/serving-large-models.adoc[leveloffset=+1]
