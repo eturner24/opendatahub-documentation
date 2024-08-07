@@ -12,7 +12,7 @@ ifdef::context[:parent-context: {context}]
 == Setting up small and medium model serving
 
 Expository banter about small and medium model serving, including a value prop for why you would want it
-/// to be deleted!
+// to be deleted!
 
 include::modules/enabling-the-multi-model-serving-platform.adoc[leveloffset=+2]
 include::modules/adding-a-custom-model-serving-runtime-for-the-multi-model-serving-platform.adoc[leveloffset=+2]
@@ -22,7 +22,7 @@ include::modules/deleting-a-model-server.adoc[leveloffset=+2]
 == Setting up large model serving
 
 Expository banter about large model serving, including a value prop for why you would want it
-/// to be deleted!
+// to be deleted!
 
 include::modules/about-the-single-model-serving-platform.adoc[leveloffset=+2]
 include::modules/installing-kserve.adoc[leveloffset=+2]
