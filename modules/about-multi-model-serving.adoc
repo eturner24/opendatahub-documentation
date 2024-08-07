@@ -1,0 +1,10 @@
+:_module-type: CONCEPT
+
+[id="about-multi-model-serving_{context}"]
+= About the multi-model serving platform
+
+[role="_abstract"]
+For deploying small and medium-sized models, {productname-short} includes a _multi-model serving platform_ that is based on the link:https://github.com/kserve/modelmesh[ModelMesh^] component. On the multi-model serving platform, you can deploy multiple models on the same model server. Each of the deployed models shares the server resources. This approach can be advantageous on OpenShift clusters that have finite compute resources or pods.
+
+// [role="_additional-resources"]
+// .Additional resources

@@ -17,3 +17,14 @@ include::_artifacts/document-attributes-global.adoc[]
 
 :context: about-model-serving
 include::modules/about-model-serving.adoc[leveloffset=+1]
+include::modules/about-the-single-model-serving-platform.adoc[leveloffset=+2]
+include::modules/about-multi-model-serving.adoc[leveloffset=+2]
+
+:context: setting-up-model-serving
+include::assemblies/setting-up-model-serving.adoc[leveloffset=+1]
+
+:context: serving-small-and-medium-models
+include::assemblies/serving-small-and-medium-sized-models.adoc[leveloffset=+1]
+
+:context: serving-large-models
+include::assemblies/serving-large-models.adoc[leveloffset=+1]

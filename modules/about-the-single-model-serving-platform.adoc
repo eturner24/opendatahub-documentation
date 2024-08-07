@@ -4,6 +4,8 @@
 = About the single-model serving platform
 
 [role="_abstract"]
+For deploying large models such as large language models (LLMs), {productname-short} includes a _single-model serving platform_ that is based on the link:https://github.com/kserve/kserve[KServe^] component. Because each model is deployed from its own model server, the single-model serving platform helps you to deploy, monitor, scale, and maintain large models that require increased resources.
+
 The single-model serving platform consists of the following components:
 
 * link:https://github.com/opendatahub-io/kserve[KServe^]: A Kubernetes custom resource definition (CRD) that orchestrates model serving for all types of models. It includes model-serving runtimes that implement the loading of given types of model servers. KServe handles the lifecycle of the deployment object, storage access, and networking setup.

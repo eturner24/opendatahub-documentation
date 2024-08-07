@@ -10,13 +10,12 @@ ifdef::context[:parent-context: {context}]
 [role='_abstract']
 For deploying large models such as large language models (LLMs), {productname-long} includes a _single-model serving platform_ that is based on the KServe component. Because each model is deployed from its own model server, the single-model serving platform helps you to deploy, monitor, scale, and maintain large models that require increased resources.
 
-include::modules/about-the-single-model-serving-platform.adoc[leveloffset=+1]
-include::modules/installing-kserve.adoc[leveloffset=+1]
+== Deploying and serving large models
+
 include::modules/deploying-models-using-the-single-model-serving-platform.adoc[leveloffset=+1]
-include::modules/enabling-the-single-model-serving-platform.adoc[leveloffset=+2]
-include::modules/adding-a-custom-model-serving-runtime-for-the-single-model-serving-platform.adoc[leveloffset=+2]
-include::modules/deploying-models-on-the-single-model-serving-platform.adoc[leveloffset=+2]
 include::modules/accessing-inference-endpoint-for-model-deployed-on-single-model-serving-platform.adoc[leveloffset=+2]
+
+== Monitoring model peformance
 // Conditionalized for self-managed because monitoring of user-defined projects is enabled on OSD and ROSA by default
 ifdef::upstream,self-managed[]
 include::modules/configuring-monitoring-for-the-single-model-serving-platform.adoc[leveloffset=+1]
@@ -24,7 +23,7 @@ endif::[]
 
 include::modules/viewing-metrics-for-the-single-model-serving-platform.adoc[leveloffset=+1]
 
-== Performance tuning on the single-model serving platform
+== Improving performance on the single-model serving platform
 Certain performance issues might require you to tune the parameters of your inference service or model-serving runtime.
 
 include::modules/resolving-cuda-oom-errors.adoc[leveloffset=+2]

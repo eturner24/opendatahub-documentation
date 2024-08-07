@@ -10,12 +10,6 @@ ifdef::context[:parent-context: {context}]
 [role='_abstract']
 On the multi-model serving platform, multiple models can be deployed from the same model server and share the server resources.
 
-== Configuring model servers
-include::modules/enabling-the-multi-model-serving-platform.adoc[leveloffset=+2]
-include::modules/adding-a-custom-model-serving-runtime-for-the-multi-model-serving-platform.adoc[leveloffset=+2]
-include::modules/adding-a-model-server-for-the-multi-model-serving-platform.adoc[leveloffset=+2]
-include::modules/deleting-a-model-server.adoc[leveloffset=+2]
-
 == Working with deployed models
 include::modules/deploying-a-model-using-the-multi-model-serving-platform.adoc[leveloffset=+2]
 include::modules/viewing-a-deployed-model.adoc[leveloffset=+2]
